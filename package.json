@@ -1,0 +1,26 @@
+{
+  "name": "quora",
+  "version": "1.0.0",
+  "description": "- Please include all the basic validations in code this time. For example you should write your own code to ensure that a userId passed as the path param must be a valid ObjectId and in such a case the error should be handled within the try block and not the catch block. This applies to all the validations whose failure lead to a 500 error. A valid error should be 400, 401, 403 or 404, as the case may be.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nishant8826/Quora.git"
+  },
+  "author": "Nishant Rathore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nishant8826/Quora/issues"
+  },
+  "homepage": "https://github.com/Nishant8826/Quora#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
